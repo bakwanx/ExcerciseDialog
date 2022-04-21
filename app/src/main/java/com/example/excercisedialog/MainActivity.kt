@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         btnDialogFragment = findViewById(R.id.btn_fragment)
         btnCustom = findViewById(R.id.btn_custom_layout)
 
-        /*Dialog Standard & Dialog Action*/
+        /*Dialog Standard & Dialog Action*/ //Mas Villa
         btnMainStandard.setOnClickListener {
             alertDialogStandard()
         }
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             alertDialogActionButton()
         }
 
-        /*DIALOG CUSTOM*/
+        /*DIALOG CUSTOM*/ //Mas Stheven
         val view = LayoutInflater.from(this).inflate(R.layout.dialog_custom_layout, null)
         btnCustomLayout = view.findViewById(R.id.btn_dismiss_custom_dialog)
         val dialogBuilder = AlertDialog.Builder(this)
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             dialog.dismiss()
         }
 
-        /*DIALOG FRAGMENT*/
+        /*DIALOG FRAGMENT*/ //Mas Farhan
         val dialogFragment = ExampleDialog()
         btnDialogFragment.setOnClickListener {
             dialogFragment.show(supportFragmentManager, null)
