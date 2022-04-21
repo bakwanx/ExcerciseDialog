@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExcerciseDialog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_standard">Dialog Standard</string>
+    <string name="btn_action">Dialog Action</string>
+    <string name="title_custom_dialog">Custom Dialog</string>
+    <string name="btn_dialog_fragment">Dialog Fragment</string>
+    <string name="btn_close">Tutup</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="msg_custom_dialog">This is a custom dialog message</string>
+    <string name="msg_fragment_dialog">This is a dialog fragment</string>
+</resources>
